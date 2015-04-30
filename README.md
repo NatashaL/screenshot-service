@@ -15,3 +15,8 @@ A Python based scalable back-end service using RabbitMQ's pika
 - ``` receiver.py ``` receives the requests for downloading the screenshots and downloads them.
 - Request a screenshot by querying it to ``` sender.py ``` as ```get <url>``` (\<url\> should be exactly the same as requested previously, or as in the ``` <urls> ``` file, otherwise it will not be found in the existing screenshots, and a new request for downloading will be issued.
 
+#####Requirements:
+- Linux
+- RabbitMQ
+- RabbitMQ (pika) for python
+- gnome-web-photo should be already built-in in Linux.
