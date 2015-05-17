@@ -1,5 +1,5 @@
 # screenshot-service
-A Python based scalable back-end service using RabbitMQ's pika
+A Python based scalable back-end service using RabbitMQ's pika library.
 
 #####How to:
 - Start the reader component: <br/>
